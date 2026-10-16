@@ -1,0 +1,172 @@
+140c34b10 'ERROR: the format of scpi query result is error.' <- 1402e252f in FUN_1402e2470
+140c34be4 'scpi' <- 1402e46dd in FUN_1402e4500
+140c34be4 'scpi' <- 1402e392d in FUN_1402e3560
+140c34be4 'scpi' <- 1402e29ef in FUN_1402e27e0
+140c34c00 'scpi_len + 5 < sizeof(scpi_cmd)' <- 1402e2a09 in FUN_1402e27e0
+140c34c40 'cur_cmd_len + 2 + 18 < (int)sizeof(scpi_cmd)' <- 1402e2a3d in FUN_1402e27e0
+140c34ca0 'ERROR: failed to get param by scpi.' <- 1402e2997 in FUN_1402e27e0
+140c34cc8 'out_scpi_result[0] != 0' <- 1402e2a57 in FUN_1402e27e0
+140c34cc8 'out_scpi_result[0] != 0' <- 1402e2a75 in FUN_1402e2a70
+140c34cf8 'ERROR: failed to parse scpi result.' <- 1402e29cf in FUN_1402e27e0
+140c34e78 'ERROR: the scpi command buffer is small.' <- 1402e3c87 in FUN_1402e3a10
+140c34e78 'ERROR: the scpi command buffer is small.' <- 1402e3cb7 in FUN_1402e3a10
+140c34e78 'ERROR: the scpi command buffer is small.' <- 1402e38f7 in FUN_1402e3560
+140c34e78 'ERROR: the scpi command buffer is small.' <- 1402e3941 in FUN_1402e3560
+140c34e78 'ERROR: the scpi command buffer is small.' <- 1402e398b in FUN_1402e3560
+140c34ea1 'ERROR: no support scpi type.' <- 1402e3c4f in FUN_1402e3a10
+140c34ea1 'ERROR: no support scpi type.' <- 1402e38c2 in FUN_1402e3560
+140c351f0 'ERROR: the device handle is null, unable to get param by scpi. %d' <- 1402e687a in FUN_1402e6570
+140c35238 'ERROR: the scpi is empty, unable to query param. %d' <- 1402e689a in FUN_1402e6570
+140c41728 '..\\..\\..\\hal\\halscpi.cpp' <- 1403392c0 in FUN_140339140
+140c41728 '..\\..\\..\\hal\\halscpi.cpp' <- 1403392da in FUN_140339140
+140c41728 '..\\..\\..\\hal\\halscpi.cpp' <- 14033945f in FUN_140339300
+140c41818 '%s: Invalid scpi command: exp(:), act(%c)' <- 140339427 in FUN_140339300
+140c4187a '%s: Error: empty scpi command' <- 14033944e in FUN_140339300
+140c41898 '%s: Error: empty scpi sections: %s' <- 1403393f1 in FUN_140339300
+140c418c0 'Failed to split SCPI command: %s' <- 140339b17 in FUN_140339480
+140c418fa 'SCPI command not found: %s' <- 140339ad5 in FUN_140339480
+140c41918 'Not enough values in SCPI command: %s' <- 140339b4a in FUN_140339480
+140c41940 'More values in SCPI command matched: %d' <- 14033955d in FUN_140339480
+140c41968 'SCPI command parsed successfully: %s' <- 140339a41 in FUN_140339480
+140c41990 'Invalid values format in SCPI command: %s' <- 140339674 in FUN_140339480
+140c41a08 'Failed to split SCPI query: %s' <- 140339d97 in FUN_140339cb0
+140c41a3f 'SCPI query not found: %s' <- 140339d29 in FUN_140339cb0
+140c41a58 'SCPI query parsed successfully: %s' <- 140339d50 in FUN_140339cb0
+140c44998 'Error: The usb device (%s) is pending removal, cannot execute SCPI com' <- 14033f887 in FUN_14033f520
+140c44998 'Error: The usb device (%s) is pending removal, cannot execute SCPI com' <- 14033efd9 in FUN_14033ee40
+140c44a01 'SCPI query %.*s done' <- 14033ef60 in FUN_14033ee40
+140c44a16 'SCPI query %.*s not supported' <- 14033f05e in FUN_14033ee40
+140c44ac0 'Warnning: Illegal SCPI command when wait head' <- 14033f7e7 in FUN_14033f520
+140c44aee 'SCPI command %.*s done' <- 14033f67b in FUN_14033f520
+140c44b08 'SCPI command %.*s not supported' <- 14033f7a6 in FUN_14033f520
+140c44b28 'SCPI command %s parse failed' <- 14033f7ca in FUN_14033f520
+140c44da0 'Unsupported firmware version in profile of (%s): %d' <- 14033fe7b in FUN_14033fe10
+140c44ea0 'Error: Expected firmware version %04x, got %04x' <- 140340217 in FUN_14033fef0
+140c44ed0 'Firmware version: %04x' <- 140340029 in FUN_14033fef0
+140c44f78 'Error: Failed to upgrade firmware (%s)' <- 1403401b8 in FUN_14033fef0
+140c44fa0 'Firmware upgrade done: %d bytes.' <- 1403404e9 in FUN_14033fef0
+140c45080 'BSP: Set transfer mode to %d' <- 1403406f3 in FUN_140340630
+140c4509d 'BSP: Set repeat mode to %d' <- 140340650 in FUN_140340630
+140c450b8 'BSP: Set loop mode to %d' <- 1403406c3 in FUN_140340630
+140c450d8 'BSP: Set auto samplerate to %d' <- 140340688 in FUN_140340630
+140c45190 'BSP: Failed to get security key.' <- 140340903 in FUN_1403407d0
+140c451b8 'BSP: Failed to security check of usb device (%s)' <- 140340891 in FUN_1403407d0
+140c451f0 'BSP: Failed to set new security key.' <- 1403408e3 in FUN_1403407d0
+140c45410 'BSP: Security check result: %d' <- 140340c15 in FUN_140340b20
+140c454d0 'BSP: hardware not ready, pass %s operation.' <- 14034111e in FUN_1403410b0
+140c454d0 'BSP: hardware not ready, pass %s operation.' <- 1403411fe in FUN_140341190
+140c454d0 'BSP: hardware not ready, pass %s operation.' <- 1403412ee in FUN_140341270
+140c454d0 'BSP: hardware not ready, pass %s operation.' <- 14034144e in FUN_1403413e0
+140c454d0 'BSP: hardware not ready, pass %s operation.' <- 14034103e in FUN_140340fd0
+140c45b38 'BSP: Failed to initialize MSO module.' <- 140341c15 in FUN_140341bc0
+140c45ba0 'BSP: MSO scpi query %d handled' <- 140341c90 in FUN_140341c60
+140c45c39 'GetFirmwareVersion' <- 140341dc0 in FUN_140341d80
+140c45c50 '%s: Failed to get firmware version.' <- 140341dc7 in FUN_140341d80
+140c45c80 'BSP: Failed to get fpga bin version.' <- 140341e43 in FUN_140341e00
+140c45cf8 'BSP: Queue thread running, queue size: %d' <- 140342272 in FUN_1403421b0
+140c45d28 'BSP: Control Queue Thread Stopped.' <- 140342574 in FUN_1403421b0
+140c45d50 'BSP: Queue set %s(Addr:%d, Off:%d) to %d' <- 14034229e in FUN_1403421b0
+140c45d50 'BSP: Queue set %s(Addr:%d, Off:%d) to %d' <- 1403423ca in FUN_1403421b0
+140c45d80 'BSP: Queue set %s(Addr:%d, Off:%d) to %d failed.' <- 1403421ca in FUN_1403421b0
+140c45d80 'BSP: Queue set %s(Addr:%d, Off:%d) to %d failed.' <- 140342518 in FUN_1403421b0
+140c45e7a 'BSP: %s: %d' <- 1403427a0 in FUN_1403426e0
+140c45e88 'BSP: Queue thread is already running. Stopping it before restart.' <- 140342937 in FUN_1403428b0
+140c45f40 'BSP: RegWrite %s(0x%02X)=0x%04X' <- 140342f7c in FUN_140342ed0
+140c46020 'BSP: Sent flow pause command to hardware.' <- 1403437d0 in FUN_140343730
+140c46050 'BSP: Failed to setup MSO packet handler.' <- 1403439d3 in FUN_1403438f0
+140c46090 'Start FPGA configure: %d bytes.' <- 140343b5b in FUN_140343b30
+140c460b9 'config FPGA' <- 140343c56 in FUN_140343b30
+140c460b9 'config FPGA' <- 140343e9f in FUN_140343b30
+140c460b9 'config FPGA' <- 1403441c5 in FUN_140343b30
+140c460fa 'BSP: Invalid FPGA bin file.' <- 140343fe4 in FUN_140343b30
+140c46118 'BSP Error: Wait FPGA INIT_B timeout.' <- 140343d3f in FUN_140343b30
+140c4615a 'FPGA_CONFIG' <- 140343dd3 in FUN_140343b30
+140c46170 'BSP Error: FPGA configure timeout.' <- 1403440df in FUN_140343b30
+140c461b0 'BSP: FPGA configure done: %d bytes.' <- 140344201 in FUN_140343b30
+140c461d8 'BSP: Sent flow resume command to hardware.' <- 140344316 in ?
+140c46208 'BSP: Sent stop command to hardware.' <- 14034444f in FUN_140344350
+140c46240 'BSP: Send start command to hardware.' <- 14034469f in ?
+140c465f0 'BSP: MSO scpi command %d handled' <- 140344912 in FUN_1403448c0
+140c4745e 'scpi_command' <- 1403471bf in FUN_140347050
+140c474a0 'ERROR: the scpi command is too long.' <- 1403471d3 in FUN_140347050
+140c4806c 'hal_execute_scpi_command' <- 14034935a in hal_execute_scpi_command
+140c4806c 'hal_execute_scpi_command' <- 14034938a in hal_execute_scpi_command
+140c48088 '%s: Failed to execute the scpi command: %p' <- 140349361 in hal_execute_scpi_command
+140c480b3 'hal_execute_scpi_query' <- 14034946a in hal_execute_scpi_query
+140c480b3 'hal_execute_scpi_query' <- 14034949e in hal_execute_scpi_query
+140c480d0 '%s: Failed to execute the scpi query: %p' <- 140349471 in hal_execute_scpi_query
+140c97c38 'BSP: Failed to initialize MSO module.' <- 1403497f5 in FUN_1403497a0
+140c97ca0 'BSP: MSO scpi query %d handled' <- 140349890 in FUN_140349860
+140c97d30 'BSP: Failed to get fpga bin version.' <- 140349963 in FUN_140349920
+140c97dc8 'BSP: Failed to get panel version.' <- 140349a3c in FUN_1403499e0
+140c97df8 'BSP: Failed to get firmware version.' <- 140349acc in FUN_140349a70
+140c97e90 'BSP: RegWrite %s(0x%02X)=0x%04X' <- 140349eb1 in FUN_140349e30
+140c97f18 'BSP: Sent flow pause command to hardware.' <- 14034a75f in FUN_14034a700
+140c97f48 'BSP: Sent stop command to hardware.' <- 14034a8d7 in FUN_14034a830
+140c97f70 'BSP: Sent flow resume command to hardware.' <- 14034acb7 in FUN_14034ac40
+140c97fa0 'BSP: Failed to setup MSO packet handler.' <- 14034ae28 in FUN_14034acf0
+140c97fe0 'BSP: hardware not ready, pass %s operation.' <- 14034aedf in FUN_14034ae50
+140c9800c 'BSP: Queue RegBulkIn setup' <- 14034ae6d in FUN_14034ae50
+140c98027 'BSP: Queue RegBulkIn done' <- 14034aebe in FUN_14034ae50
+140c98048 'BSP: Queue handshake (Prepare) failed.' <- 14034beed in FUN_14034b8c0
+140c98048 'BSP: Queue handshake (Prepare) failed.' <- 14034b09f in FUN_14034af00
+140c98070 'BSP: Queue handshake (Wait Ready) failed.' <- 14034bf02 in FUN_14034b8c0
+140c98070 'BSP: Queue handshake (Wait Ready) failed.' <- 14034b115 in FUN_14034af00
+140c980b0 'BSP: Queue handshake (Done) failed.' <- 14034bd34 in FUN_14034b8c0
+140c980b0 'BSP: Queue handshake (Done) failed.' <- 14034b12d in FUN_14034af00
+140c98142 'BSP: %s: %d' <- 14034b00a in FUN_14034af00
+140c981d0 'BSP: IspWriteData failed: %d; remain length: %d' <- 14034b2fd in FUN_14034b1e0
+140c98200 'BSP: Start panel upgrade: %d bytes.' <- 14034b3ba in FUN_14034b3a0
+140c98260 'BSP: Start firmware upgrade: %d bytes.' <- 14034b47d in FUN_14034b460
+140c982c8 'BSP: Queue thread is already running. Stopping it before restart.' <- 14034b627 in FUN_14034b5a0
+140c98310 'BSP: Send start command to hardware.' <- 14034b7f5 in ?
+140c98338 'BSP: Queue thread running, queue size: %d' <- 14034b97c in FUN_14034b8c0
+140c98368 'BSP: Queue set %s(0x%02X)=0x%04X' <- 14034ba31 in FUN_14034b8c0
+140c98368 'BSP: Queue set %s(0x%02X)=0x%04X' <- 14034bba6 in FUN_14034b8c0
+140c98390 'BSP: Queue set %s(0x%02X)=0x%04X failed.' <- 14034bc88 in FUN_14034b8c0
+140c98408 'BSP: Start FPGA configure: %d bytes.' <- 14034c3da in FUN_14034c3b0
+140c9843f 'BSP: Invalid FPGA bin file.' <- 14034c72f in FUN_14034c3b0
+140c98460 'BSP Error: Wait FPGA INIT_B timeout.' <- 14034c522 in FUN_14034c3b0
+140c98485 'FPGA_CONFIG' <- 14034c660 in FUN_14034c3b0
+140c98498 'BSP Error: FPGA configure timeout.' <- 14034c6e7 in FUN_14034c3b0
+140c984c0 'BSP: FPGA configure done: %d bytes.' <- 14034c77b in FUN_14034c3b0
+140c988a0 'BSP: MSO scpi command %d handled' <- 14034cb12 in ?
+140c988c8 'BSP: AWG scpi command %d handled' <- 14034caea in ?
+140c995d8 'BSP: Failed to power down ADC module.' <- 14034ff7f in FUN_14034ff50
+140c99818 'BSP: Set MSO m_analog_probes[%d].vdiv to %d' <- 1403504ed in FUN_1403504a0
+140c99848 'BSP: Set MSO m_analog_probes[%d].voff to %d' <- 1403505bb in FUN_140350570
+140c998c8 'BSP: Set MSO m_digital_probes[%d].enable to %d' <- 1403506af in FUN_140350620
+140c99968 'BSP: Set MSO m_trigger.auto_trig to %d' <- 140350af9 in FUN_140350ad0
+140c99a20 'BSP: Set MSO m_trigger.type to %d' <- 140350bb5 in FUN_140350b90
+140c99a48 'BSP: Set MSO m_analog_probes[%d].trig_level to %d' <- 140350c93 in FUN_140350c40
+140c99a80 'BSP: Force MSO m_analog_probes[%d].trig_level to %d' <- 140350d88 in FUN_140350d40
+140c99b00 'BSP: Set MSO m_trigger.hold_time to %llu' <- 140350e34 in FUN_140350e00
+140c99bb0 'BSP: Set MSO m_hori_time to %llu' <- 140351232 in FUN_140351200
+140c99d98 'BSP: Set MSO m_trigger.ch_index to %d, m_trigger.ch_type to %d' <- 140351d0c in FUN_140351cb0
+140c99e30 'BSP: Set MSO m_hori_depth to %llu' <- 14035253d in FUN_140351eb0
+140c99e78 'BSP: Set MSO m_analog_samplerate to %llu' <- 1403522ad in FUN_140351eb0
+140c99ea8 'BSP: Set MSO m_digital_samplerate to %llu' <- 140351fb5 in FUN_140351eb0
+140c99ed8 'BSP: Set MSO m_trigger.enable to %d' <- 140352463 in FUN_140351eb0
+140c99f48 'BSP: Set MSO m_trigger.pulse_timeto %llu' <- 140352377 in FUN_140351eb0
+140c99f78 'BSP: Set MSO m_trigger.margin to  %d' <- 1403522db in FUN_140351eb0
+140c99fa0 'BSP: Set MSO m_analog_probes[%d].ac_acoupling to %d' <- 140352224 in FUN_140351eb0
+140c99fd8 'BSP: Set MSO m_analog_probes[%d].bw20 to %d' <- 1403524ec in FUN_140351eb0
+140c9a008 'BSP: Set MSO m_analog_probes[%d].invert to %d' <- 1403520b4 in FUN_140351eb0
+140c9a0e8 'BSP: Set MSO m_threshold to %f' <- 140352143 in FUN_140351eb0
+140c9a108 'BSP: MSO Zero scpi command %d done' <- 140351f3a in FUN_140351eb0
+140c9a130 'BSP: MSO Autoset scpi command %d done' <- 1403525d0 in FUN_140351eb0
+140c9a200 'BSP: Failed to initialize ADC module.' <- 140353046 in FUN_140352d20
+140c9a228 'BSP: Failed to fetch analog probe ratio for index %d.' <- 140352e3a in FUN_140352d20
+140c9a228 'BSP: Failed to fetch analog probe ratio for index %d.' <- 140352f77 in FUN_140352d20
+140c9a260 'BSP: Failed to zero MSO analog probes.' <- 140353063 in FUN_140352d20
+140c9b770 'BSP: The zero info VID is NOT expected: %d' <- 140355c6c in FUN_140355890
+140c9b9a0 'BSP: Failed to start MSO Zero.' <- 1403575bd in FUN_140357500
+140c9b9c0 'BSP: Failed to end zero iteration.' <- 140357592 in FUN_140357500
+140c9c520 'BSP: MSO Autoset is already running (state: %d), ignoring start reques' <- 14035965f in FUN_140359560
+140c9c570 'BSP: Failed to start MSO Autoset.' <- 14035967e in FUN_140359560
+140c9c570 'BSP: Failed to start MSO Autoset.' <- 140359762 in FUN_1403596f0
+140c9c598 'BSP: Failed to update MSO Autoset sync ID.' <- 14035ac20 in FUN_14035a590
+140c9c598 'BSP: Failed to update MSO Autoset sync ID.' <- 14035969b in FUN_140359560
+140c9c5c8 'BSP: MSO Autoset is not in done state.' <- 140359635 in FUN_140359560
+141222283 'hal_execute_scpi_command' <- 1412220e4 in ?
+14122229c 'hal_execute_scpi_query' <- 1412220e8 in ?

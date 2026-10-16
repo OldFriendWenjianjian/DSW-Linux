@@ -1,0 +1,3 @@
+Couldn't open device - 2
+Couldn't open device - 2
+Thread started with invalid read handle!

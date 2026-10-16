@@ -1,0 +1,5 @@
+tools/
+ghidra_proj/
+*.pcap
+__pycache__/
+*.log
