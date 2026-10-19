@@ -15,3 +15,23 @@
 ## 声明
 
 仅用于互操作研究与教育目的（本人拥有的设备）。商标与版权归 DreamSourceLab 所有。
+
+## DSWave-Linux 应用（v1）
+
+`dswave_linux.py` — 原生 Linux M454 上位机（Python + pyusb + pyqtgraph）。
+
+```bash
+pip install --user pyusb pyqtgraph
+python3 dswave_linux.py           # GUI（波形显示 + 重新采集 + CSV 导出）
+python3 dswave_linux.py --test    # 无头自检（FPGA 加载 + 采集统计）
+```
+
+**实现要点**（详见 PROTOCOL.md"关键实现要点"）：
+- `wake_prelude()`：GET_DESCRIPTOR×4 + F0/F2 版本查询，唤醒 MCU 拉高 INIT_B——缺这一步 FPGA 永远配置不上
+- FPGA 位流加载（466,408B，PROG_B 时序 + bulk 写）
+- 会话重放：按抓包时序逐字节重放（bRequest 原样、bulk 读写交织）
+- 采集：单次 ~15MB（1M 深度），float32 交错通道对
+
+**状态（2026-10-19）**：
+- ✅ Windows 真机（WinUSB + pyusb/libusb）：全管线实测通过（FPGA 配置 + 15MB 采集）
+- ⚠️ VMware 虚拟机直通：控制/FPGA 配置通过，但 VMware 会丢失 bulk URB 完成事件（写数据到达设备但超时返回；读流卡死）——属虚拟化层限制。建议：VM 设置 USB 控制器改为 USB 2.0 试一次，或用裸机 Linux（代码即拷即用）

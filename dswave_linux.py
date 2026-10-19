@@ -62,7 +62,14 @@ class M454:
         print(f'  fpga status after PROG_B=1: 0x{st:04x} INIT_B={"OK" if ok else "TIMEOUT"}')
         self.wreg(REQ_MOD, 0xFC, len(blob) & 0xFFFF)
         self.wreg(REQ_MOD, 0xFD, len(blob) >> 16)
-        wrote = self.dev.write(EP_OUT, blob, 30000)
+        wrote = 0
+        for off in range(0, len(blob), 32768):
+            for attempt in range(3):
+                try:
+                    wrote += self.dev.write(EP_OUT, blob[off:off+32768], 10000); break
+                except Exception as e:
+                    if attempt == 2: print('  write fail @%d: %s' % (off, e))
+                    time.sleep(0.2)
         print(f'  bulk wrote {wrote}/{len(blob)} B')
         for _ in range(60):
             st = self.status()
@@ -103,12 +110,17 @@ class M454:
                 except Exception as e:
                     print('  bitstream write:', e)
             elif api == 'WinUsb_ReadPipe':
+                ep = int(r.get('ep', hex(EP_IN)), 16) if isinstance(r.get('ep'), str) else EP_IN
+                remaining = r.get('len', 4096)
                 try:
-                    d = bytes(self.dev.read(r.get('ep', EP_IN) and int(r.get('ep'), 16), r.get('len', 4096), 2500))
-                    if d:
-                        n += 1
+                    while remaining > 0:
+                        chunk = min(remaining, 4096)
+                        d = bytes(self.dev.read(ep, chunk, 3000))
+                        if not d: break
                         if not hasattr(self, 'rx'): self.rx = []
                         self.rx.append(d)
+                        remaining -= len(d)
+                    if remaining == 0: n += 1
                 except Exception:
                     pass
         return n
