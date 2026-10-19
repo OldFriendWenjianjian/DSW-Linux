@@ -48,6 +48,13 @@
 查询：`:ANALOG:SAMPLE:{Depth?|Rate?}`、`:DIGITAL:SAMPLE:{Depth?|Rate?}`
 默认：1M 深度（0x3D0900）、数字 100 MS/s、模拟 200 kS/s 起步、Vdiv=0x30D40(200000)/0xF4240(1000000)、阈值 0x16E360(1500000µV=1.5V)
 
+## 关键实现要点（实测踩坑记录）
+
+1. **wake_prelude 必须先行**：PROG_B 前必须完成 GET_DESCRIPTOR(string×4) + F0/F2 版本查询——这些"家常"通信让 MCU 拉高 FPGA INIT_B（状态从 0x0001 → 0x0003）。直接 PROG_B 会永远卡 0x0001（2026-10-19 实测确认）
+2. bulk 读必须与命令序列**交织执行**（重放完整轨迹），采集是单次的：Run 命令簇发出后 254×60KB 块一次性流出（~15MB = 1M 深度）
+3. 块头 16 字节不是时间戳（实测为数据/魔数），有效载荷 = 交错 float32 通道对（CH0/CH1）
+4. 重放必须逐字节使用抓包的 bRequest（0xB0/0xB1 不可按寄存器猜测）
+
 ## Linux 驱动映射（libusb）
 
 | Windows (WinUSB) | libusb |

@@ -1,8 +1,9 @@
-import frida, json, sys, time, subprocess
+import frida, json, sys, time, subprocess, os, os
 
-OUT = r"C:\Users\Administrator\Documents\dswave_re\capture\winusb_trace.jsonl"
+import datetime
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "capture", "trace_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S") + ".jsonl")
 EXE = r"C:\Program Files\DSWave\DSWave.exe"
-DUR = 90
+DUR = 300
 
 def main():
     session_log = open(OUT, "w", encoding="utf-8")

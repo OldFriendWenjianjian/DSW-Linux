@@ -1,0 +1,389 @@
+{"api": "hook_ready", "t": 1792143569478}
+{"api": "SetupDiGetClassDevsW", "guid": "5f7bf0e697ee904ab07633f57bf4eaa7", "ret": "0x1d8ceced550", "t": 1792143569494}
+{"api": "SetupDiGetClassDevsW", "guid": "5f7bf0e697ee904ab07633f57bf4eaa7", "ret": "0x1d8ceced550", "t": 1792143569500}
+{"api": "GetProcAddress", "name": "WinUsb_AbortPipe", "addr": "0x7ffd3d2b1f30", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_ControlTransfer", "addr": "0x7ffd3d2b20a0", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_FlushPipe", "addr": "0x7ffd3d2b22b0", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_Free", "addr": "0x7ffd3d2b23f0", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_GetAssociatedInterface", "addr": "0x7ffd3d2b2580", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_Initialize", "addr": "0x7ffd3d2b3010", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_ReadPipe", "addr": "0x7ffd3d2b4270", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_ResetPipe", "addr": "0x7ffd3d2b4610", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_SetCurrentAlternateSetting", "addr": "0x7ffd3d2b4780", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_SetPipePolicy", "addr": "0x7ffd3d2b4a00", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_GetPipePolicy", "addr": "0x7ffd3d2b2d20", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_WritePipe", "addr": "0x7ffd3d2b5500", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_ReadIsochPipeAsap", "addr": "0x7ffd3d2b3e60", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_QueryPipeEx", "addr": "0x7ffd3d2b3c80", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_RegisterIsochBuffer", "addr": "0x7ffd3d2b4460", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_UnregisterIsochBuffer", "addr": "0x7ffd3d2b5060", "t": 1792143569540}
+{"api": "GetProcAddress", "name": "WinUsb_WriteIsochPipeAsap", "addr": "0x7ffd3d2b5170", "t": 1792143569540}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569554, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355839, "api": "WinUsb_QueryPipeEx", "t": 1792143569554, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355838, "api": "WinUsb_QueryPipeEx", "t": 1792143569554, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569554, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"setup": "8006000300000400", "len": 4, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569555, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 4, "data": "04030904", "status": 1, "t": 1792143569555}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569555, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569555, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355071, "api": "WinUsb_QueryPipeEx", "t": 1792143569555, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355070, "api": "WinUsb_QueryPipeEx", "t": 1792143569555, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569555, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"setup": "800601030904ff00", "len": 255, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569556, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 30, "data": "1e0344007200650061006d0053006f0075007200630065004c0061006200", "status": 1, "t": 1792143569556}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569556, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569556, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355839, "api": "WinUsb_QueryPipeEx", "t": 1792143569556, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355838, "api": "WinUsb_QueryPipeEx", "t": 1792143569556, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569556, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569557, "thr": 22904, "status": 1}
+{"setup": "8006000300000400", "len": 4, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569557, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 4, "data": "04030904", "status": 1, "t": 1792143569557}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569557, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569558, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784354047, "api": "WinUsb_QueryPipeEx", "t": 1792143569558, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784354046, "api": "WinUsb_QueryPipeEx", "t": 1792143569558, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569557, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307468, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307467, "api": "WinUsb_SetPipePolicy", "t": 1792143569558, "thr": 22904, "status": 1}
+{"setup": "800602030904ff00", "len": 255, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569558, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 56, "data": "38035500530042002d00620061007300650064002000440053004c00200049006e0073007400720075006d0065006e007400200076003300", "status": 1, "t": 1792143569558}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569558, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569558, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784354815, "api": "WinUsb_QueryPipeEx", "t": 1792143569558, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784354814, "api": "WinUsb_QueryPipeEx", "t": 1792143569558, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569558, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569560, "thr": 22904, "status": 1}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "f00200", "api": "WinUsb_ControlTransfer", "t": 1792143569560, "thr": 22904, "status": 0}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569560, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569576, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784353535, "api": "WinUsb_QueryPipeEx", "t": 1792143569576, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784353534, "api": "WinUsb_QueryPipeEx", "t": 1792143569576, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569576, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569577, "thr": 22904, "status": 1}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569577, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "1031", "status": 1, "t": 1792143569577}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569577, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569577, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784354815, "api": "WinUsb_QueryPipeEx", "t": 1792143569577, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784354814, "api": "WinUsb_QueryPipeEx", "t": 1792143569577, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569577, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569577, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569577, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569577, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569577, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569577, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569578, "thr": 22904, "status": 1}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "f20200", "api": "WinUsb_ControlTransfer", "t": 1792143569578, "thr": 22904, "status": 0}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569578, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569591, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784356351, "api": "WinUsb_QueryPipeEx", "t": 1792143569591, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784356350, "api": "WinUsb_QueryPipeEx", "t": 1792143569591, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569591, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569591, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021307644, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021307643, "api": "WinUsb_SetPipePolicy", "t": 1792143569592, "thr": 22904, "status": 1}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569592, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0031", "status": 1, "t": 1792143569592}
+{"args": ["0x1d8ced2f310"], "api": "WinUsb_Free", "t": 1792143569592, "thr": 22904, "status": 1}
+{"pipeIdx": 0, "api": "WinUsb_QueryPipeEx", "t": 1792143569592, "thr": 22904, "status": 1, "info": "0200000002000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355583, "api": "WinUsb_QueryPipeEx", "t": 1792143569593, "thr": 22904, "status": 1, "info": "0200000086000004000000000000000000000000000000000400000000000000"}
+{"pipeIdx": -784355582, "api": "WinUsb_QueryPipeEx", "t": 1792143569593, "thr": 22904, "status": 1, "info": "0200000084000004000000000000000000000000000000000400000000000000"}
+{"args": ["0x4c0"], "api": "WinUsb_Initialize", "t": 1792143569592, "thr": 22904, "status": 1}
+{"ep": "0x0", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021308572, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021308572, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x2", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021308572, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x86", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 3, "value": "ERR:access violation accessing 0x4", "len": 1021308572, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 1, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 4, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 5, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"ep": "0x84", "policyType": 2, "value": "ERR:access violation accessing 0x1", "len": 1021308571, "api": "WinUsb_SetPipePolicy", "t": 1792143569593, "thr": 22904, "status": 1}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "ff0200", "api": "WinUsb_ControlTransfer", "t": 1792143569593, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569607, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "8300", "status": 1, "t": 1792143569607}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "f10200", "api": "WinUsb_ControlTransfer", "t": 1792143569716, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569732, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0031", "status": 1, "t": 1792143569732}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb0010", "api": "WinUsb_ControlTransfer", "t": 1792143569732, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb1000", "api": "WinUsb_ControlTransfer", "t": 1792143569732, "thr": 22904, "status": 0}
+{"setup": "c0b2000000001000", "len": 16, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569747, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 16, "data": "c7a38ed4515b6b35d8505835e3902f36", "status": 1, "t": 1792143569747}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e0000", "api": "WinUsb_ControlTransfer", "t": 1792143569747, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e0100", "api": "WinUsb_ControlTransfer", "t": 1792143569763, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569763, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569778, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143569778}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0f0000", "api": "WinUsb_ControlTransfer", "t": 1792143569779, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1305", "api": "WinUsb_ControlTransfer", "t": 1792143569779, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569779, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569794, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569794}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569794, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569810, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569810}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143569810, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569825, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143569825}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0f2f36", "api": "WinUsb_ControlTransfer", "t": 1792143569825, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143569825, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569825, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569840, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569840}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569840, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569856, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569856}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143569856, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569871, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143569871}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0fe390", "api": "WinUsb_ControlTransfer", "t": 1792143569871, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143569871, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569871, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569888, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569888}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569888, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569903, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569903}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143569903, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569919, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143569919}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0f5835", "api": "WinUsb_ControlTransfer", "t": 1792143569919, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143569919, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569919, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569934, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569934}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569934, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569950, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569950}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143569950, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569965, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143569965}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0fd850", "api": "WinUsb_ControlTransfer", "t": 1792143569965, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143569965, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569965, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569981, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569981}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143569981, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143569996, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143569996}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143569996, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570011, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143570011}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0f6b35", "api": "WinUsb_ControlTransfer", "t": 1792143570011, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143570011, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570011, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570027, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143570027}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570027, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570042, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143570042}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143570042, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570058, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143570058}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0f515b", "api": "WinUsb_ControlTransfer", "t": 1792143570058, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143570058, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570058, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570073, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143570073}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570073, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570089, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143570089}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143570089, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570104, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143570104}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0f8ed4", "api": "WinUsb_ControlTransfer", "t": 1792143570104, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143570104, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570104, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570120, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143570120}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570120, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570136, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0200", "status": 1, "t": 1792143570136}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "0f0200", "api": "WinUsb_ControlTransfer", "t": 1792143570137, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570151, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0000", "status": 1, "t": 1792143570151}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0fc7a3", "api": "WinUsb_ControlTransfer", "t": 1792143570151, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "0e1902", "api": "WinUsb_ControlTransfer", "t": 1792143570151, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "010200", "api": "WinUsb_ControlTransfer", "t": 1792143570151, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570167, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0400", "status": 1, "t": 1792143570167}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fa0200", "api": "WinUsb_ControlTransfer", "t": 1792143570167, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570182, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0031", "status": 1, "t": 1792143570182}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fa0201", "api": "WinUsb_ControlTransfer", "t": 1792143570182, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570198, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0031", "status": 1, "t": 1792143570198}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fa0202", "api": "WinUsb_ControlTransfer", "t": 1792143570198, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570213, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0031", "status": 1, "t": 1792143570213}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fa0203", "api": "WinUsb_ControlTransfer", "t": 1792143570213, "thr": 22904, "status": 0}
+{"setup": "c0b2000000000200", "len": 2, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570229, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 2, "data": "0031", "status": 1, "t": 1792143570229}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb0000", "api": "WinUsb_ControlTransfer", "t": 1792143570229, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570229, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570245, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "ab0c000004f501fa0000ed0031000000ed0011000000ec0010000000d80000000000cc0018000000d80002000000cc001a000000d80001000100d80000000100", "status": 1, "t": 1792143570245}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570245, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570245, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570261, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "cc0018000100c80008000100cb001a00010000000000e3ffebff0100f3ff0600fcffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "status": 1, "t": 1792143570261}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb8000", "api": "WinUsb_ControlTransfer", "t": 1792143570261, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570261, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570276, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "ab0c000004f701fa0000b00031000000b00011000000ac0010000000b00000000000b50018000000af0002000000b4001a000000b10001000100b00000000100", "status": 1, "t": 1792143570276}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fbc000", "api": "WinUsb_ControlTransfer", "t": 1792143570276, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570276, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570292, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "b40018000100b40008000100b4001a0001001c001700000000001e00080023001100ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "status": 1, "t": 1792143570292}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb0001", "api": "WinUsb_ControlTransfer", "t": 1792143570292, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570292, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570307, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "ab0c000004f001fa0000810031000000820011000000870010000000a40000000000b50018000000a50002000000b6001a000000a00001000100a40000000100", "status": 1, "t": 1792143570307}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb4001", "api": "WinUsb_ControlTransfer", "t": 1792143570307, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570307, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570322, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "b40018000100bb0008000100b5001a000100feff0f00e2fffcff0000000005000a00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "status": 1, "t": 1792143570322}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fb8001", "api": "WinUsb_ControlTransfer", "t": 1792143570322, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570322, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570338, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "ab0c000004f101fa0000ec0031000000ec0011000000e50010000000d60000000000cd0018000000d40002000000cb001a000000da0001000100d60000000100", "status": 1, "t": 1792143570338}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "fbc001", "api": "WinUsb_ControlTransfer", "t": 1792143570338, "thr": 22904, "status": 0}
+{"setup": "40b1000000000300", "len": 3, "dir": "out", "data": "fb4000", "api": "WinUsb_ControlTransfer", "t": 1792143570338, "thr": 22904, "status": 0}
+{"setup": "c0b2000000004000", "len": 64, "dir": "in", "api": "WinUsb_ControlTransfer", "t": 1792143570353, "thr": 22904, "status": 0, "rxlen": 0, "data": ""}
+{"api": "WinUsb_ControlTransfer:overlapped", "ep": "ep0", "len": 64, "data": "cd0018000100c90008000100ca001a000100f9ff0600dcfff2fffcfff8ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "status": 1, "t": 1792143570353}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "010000", "api": "WinUsb_ControlTransfer", "t": 1792143570353, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "020800", "api": "WinUsb_ControlTransfer", "t": 1792143570353, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "400500", "api": "WinUsb_ControlTransfer", "t": 1792143570354, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "280201", "api": "WinUsb_ControlTransfer", "t": 1792143570354, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "2b0000", "api": "WinUsb_ControlTransfer", "t": 1792143570354, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "500500", "api": "WinUsb_ControlTransfer", "t": 1792143570354, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "280102", "api": "WinUsb_ControlTransfer", "t": 1792143570354, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "2b0000", "api": "WinUsb_ControlTransfer", "t": 1792143570355, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "600500", "api": "WinUsb_ControlTransfer", "t": 1792143570355, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "280003", "api": "WinUsb_ControlTransfer", "t": 1792143570355, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "2b0000", "api": "WinUsb_ControlTransfer", "t": 1792143570355, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "700400", "api": "WinUsb_ControlTransfer", "t": 1792143570355, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "280003", "api": "WinUsb_ControlTransfer", "t": 1792143570356, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "2b0000", "api": "WinUsb_ControlTransfer", "t": 1792143570356, "thr": 22904, "status": 0}
+{"setup": "40b0000000000300", "len": 3, "dir": "out", "data": "f40000", "api": "WinUsb_ControlTransfer", "t": 1792143572728, "thr": 22904, "status": 0}
